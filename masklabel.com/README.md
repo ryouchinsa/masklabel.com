@@ -1,2 +1,0 @@
-# masklabel.com
-MaskLabel website
