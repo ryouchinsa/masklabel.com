@@ -4,11 +4,13 @@
 <header class="top"><a class="brand" href="/"><img src="logo.png" width="32" height="32" alt="">MaskLabel</a><nav><a href="/#features">Features</a><a href="/#pricing">Pricing</a><a href="help.html">Help</a><a href="support.html">Support</a></nav></header>
 <main class="prose">
 <h1>Privacy Policy</h1>
-<p>Last updated: November 25, 2026</p>
+<p>Last updated: November 26, 2026</p>
 <h2>Your images and annotations stay on your Mac</h2>
 <p>MaskLabel runs SAM3 locally on your Mac with MLX. Your images, masks, class names and datasets are not uploaded to our servers, and we do not receive copies of them.</p>
 <h2>One-time model download</h2>
 <p>The first time you start MaskLabel, it downloads the SAM3 model from Hugging Face (huggingface.co). Only the model is downloaded. No image, mask or dataset is sent. As with any download, Hugging Face can see your IP address. After this, the model loads from your Mac.</p>
+<h2>Importing an Ultralytics NDJSON dataset</h2>
+<p>If you import an Ultralytics NDJSON dataset file, MaskLabel downloads each image from the web address listed in that file and saves it on your Mac. These requests go to the servers that host those images, which can see your IP address. This happens only when you choose to import such a file. Nothing is uploaded: no image, mask or annotation is sent anywhere.</p>
 <h2>Data we collect</h2>
 <p>MaskLabel does not collect personal information, does not include advertising, and does not use third-party analytics or tracking.</p>
 <h2>Purchases</h2>
