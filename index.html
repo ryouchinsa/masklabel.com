@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet"><link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta property="og:title" content="MaskLabel"><meta property="og:description" content="Fast SAM3 instance segmentation annotation for Mac. COCO and YOLO import and export."><meta property="og:image" content="https://masklabel.com/og-image.png"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="style.css">
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&display=swap" rel="stylesheet"><link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><meta property="og:title" content="MaskLabel"><meta property="og:description" content="Fast SAM3 instance segmentation annotation for Mac, with live preview and mask refinement. COCO and YOLO import and export."><meta property="og:image" content="https://masklabel.com/og-image.png"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="style.css">
 <title>MaskLabel – Fast SAM3 instance segmentation annotation for Mac</title>
-<meta name="description" content="MaskLabel is a Mac annotation tool for instance segmentation. SAM3 runs on Apple silicon with MLX. Import and export COCO and YOLO.">
+<meta name="description" content="MaskLabel is a Mac annotation tool for instance segmentation. SAM3 runs on Apple silicon with MLX, with a live mask preview as you move the mouse. Import and export COCO and YOLO.">
 </head><body><div class="wrap">
 <header class="top"><a class="brand" href="/"><img src="logo.png" width="32" height="32" alt="">MaskLabel</a><nav><a href="/#features">Features</a><a href="/#pricing">Pricing</a><a href="help.html">Help</a><a href="support.html">Support</a></nav></header>
 <div class="hero">
 <div>
 <h1>Segment anything. Label it in a click.</h1>
-<p class="lead">MaskLabel is an instance segmentation annotation tool for Mac. SAM3 runs on Apple silicon through MLX, so masks appear as fast as you click.</p>
+<p class="lead">MaskLabel is an instance segmentation annotation tool for Mac. SAM3 runs on Apple silicon through MLX, so the mask preview follows your mouse and masks appear as fast as you click.</p>
 <a class="btn" href="https://apps.apple.com/app/id6838575259">Download on the Mac App Store</a><a class="btn alt" href="#features">See features</a>
 <p class="note">Requires a Mac with Apple silicon. Works with COCO and YOLO datasets.</p>
 </div>
@@ -26,12 +26,14 @@
 
 <section id="features"><h2>Built for labeling segmentation masks</h2>
 <div class="grid">
-<div><h3>Click to segment</h3><p>Add points or drag a box and SAM3 returns the mask. Refine an existing mask by clicking to add or remove regions.</p></div>
-<div><h3>Find Objects with AI</h3><p>Describe what to look for and review the results with a confidence slider, then save the ones you want.</p></div>
+<div><h3>Live preview as you move</h3><p>The mask preview follows your mouse before you click: about 20 frames per second on a 4965×2829 photo on an M1 Mac.</p></div>
+<div><h3>Click, then refine with SAM</h3><p>Add points or drag a box and SAM3 returns the mask. Refine an existing polygon or pixel mask with a single point, several points or a box, and see the change live before you apply it.</p></div>
+<div><h3>Find Objects with AI</h3><p>Type a class name, or draw a box around one example. Review the results with a confidence slider, then save the ones you want.</p></div>
 <div><h3>Pixels and polygon masks</h3><p>Edit with a brush, polygon points or the SAM tab. Simplify polygons to the point count you need, with full undo and redo.</p></div>
 <div><h3>COCO and YOLO</h3><p>Import and export both formats. Train, valid and test splits are kept, and same-named images in different splits stay separate.</p></div>
 <div><h3>Made for large datasets</h3><p>Thousands of class names, hundreds of masks per image, and a fast image browser with thumbnails and split editing.</p></div>
 <div><h3>Your shortcuts</h3><p>Every action can get its own shortcut. Export them as JSON to use the same setup on several Macs.</p></div>
+<div><h3>Runs on your Mac</h3><p>SAM3 runs locally on Apple silicon. Your images and masks are never uploaded; only the model is downloaded, once.</p></div>
 </div></section>
 
 <section id="pricing"><h2>Pricing</h2>
